@@ -8,22 +8,18 @@
 <body class="bg-light">
   <div class="container py-5">
     <h1 class="mb-4">Bulk Email Verification Tool</h1>
-
     <form id="singleForm" class="mb-4">
       <div class="input-group">
         <input type="email" class="form-control" name="email" placeholder="Enter single email" required />
         <button class="btn btn-primary" type="submit">Verify</button>
       </div>
     </form>
-
     <div id="singleAlert"></div>
-
     <h4 class="mt-5">Bulk Verification (CSV / TXT)</h4>
     <form id="bulkForm" class="mb-3">
       <input type="file" name="file" accept=".csv,.txt" required />
       <button class="btn btn-success ms-2" type="submit">Upload & Verify</button>
     </form>
-
     <table id="bulkTable" class="table table-bordered table-striped d-none">
       <thead class="table-secondary">
         <tr>
@@ -35,7 +31,6 @@
       <tbody></tbody>
     </table>
   </div>
-
   <script src="/static/main.js"></script>
 </body>
 </html>
