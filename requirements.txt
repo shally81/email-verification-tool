@@ -1,8 +1,0 @@
-fastapi
-uvicorn
-aiosmtplib
-dnspython
-requests
-email-validator
-sqlalchemy
-python-multipart
