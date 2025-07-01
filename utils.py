@@ -69,4 +69,4 @@ def get_message_for_reason(status: bool, reason: str) -> str:
         return "SMTP handshake succeeded. Email is deliverable."
     if reason == "mx-valid-no-smtp":
         return "Domain accepts mail but SMTP check was skipped."
-    return f"Valid: {reason}"
+    return f"Valid: {reason}
