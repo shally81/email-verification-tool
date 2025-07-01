@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+h1, h2 {
+  margin-top: 0;
+  color: #333;
+}
+.form-inline {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+input[type="email"], input[type="file"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  padding: 10px 16px;
+  background: #0069d9;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background: #0053b3;
+}
+#bulkTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+#bulkTable th, #bulkTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#bulkTable th {
+  background: #f1f1f1;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Email Verifier</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Email Verification Tool</h1>
+
+    <!-- Single Email Form -->
+    <section>
+      <h2>Single Email Verify</h2>
+      <div class="form-inline">
+        <input type="email" id="singleEmail" placeholder="Enter email" />
+        <button id="verifyBtn">Verify</button>
+      </div>
+      <p id="singleResult"></p>
+    </section>
+
+    <!-- Bulk Email Section -->
+    <section>
+      <h2>Bulk Verify via CSV</h2>
+      <input type="file" id="csvfile" accept=".csv" />
+      <button id="uploadBtn">Upload & Verify</button>
+      <p id="bulkStatus"></p>
+      <table id="bulkTable">
+        <thead>
+          <tr><th>Email</th><th>Status</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
